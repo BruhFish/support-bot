@@ -21,6 +21,20 @@ Always take a backup of your `db/data.sqlite` file before updating the bot.
 * [📌 Release notes](CHANGELOG.md)
 * [📚 **Community Guides & Resources**](https://github.com/Dragory/modmailbot-community-resources)
 
+#Start-up for a VPS
+`sudo npm i -g pm2
+pm2 startup
+pm2 start modmailbot-pm2.json
+pm2 save`
+
+if that doesn't work, try:
+
+`source ~/.bashrc
+sudo npm i -g pm2
+pm2 startup
+pm2 start modmailbot-pm2.json
+pm2 save`
+
 ## Support server
 If you need help with setting up the bot or would like to discuss other things related to it, join the support server on Discord here:
 
